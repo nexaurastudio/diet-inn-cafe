@@ -1,5 +1,5 @@
 import React from 'react';
-import { CategoryType } from '../types';
+import { CategoryType } from './types';
 import { ArrowUpRight } from 'lucide-react';
 
 interface FoodCategoriesProps {
