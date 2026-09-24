@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tag, Sparkles, Check, Plus } from 'lucide-react';
-import { BRAND_DEALS, getWhatsAppUrl } from '../data/menuData';
-import { useCart } from '../context/CartContext';
+import { BRAND_DEALS, getWhatsAppUrl } from './menuData';
+import { useCart } from './CartContext';
 
 export const FeaturedDeals: React.FC = () => {
   const { addToCart } = useCart();
