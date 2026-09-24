@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { CartItem, ExtraOption, MenuItemOption } from '../types';
+import { CartItem, ExtraOption, MenuItemOption } from './types';
 
 interface AddToCartParams {
   itemId: string;
