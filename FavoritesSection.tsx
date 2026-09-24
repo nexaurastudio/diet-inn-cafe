@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Plus } from 'lucide-react';
-import { MENU_ITEMS } from '../data/menuData';
-import { MenuItem } from '../types';
-import { useCart } from '../context/CartContext';
+import { MENU_ITEMS } from './menuData';
+import { MenuItem } from './types';
+import { useCart } from './CartContext';
 import { ItemCustomizeModal } from './ItemCustomizeModal';
 
 export const FavoritesSection: React.FC = () => {
