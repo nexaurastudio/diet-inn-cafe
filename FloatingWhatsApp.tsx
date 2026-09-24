@@ -1,6 +1,6 @@
 import React from 'react';
 import { MessageCircle } from 'lucide-react';
-import { getWhatsAppUrl } from '../data/menuData';
+import { getWhatsAppUrl } from './menuData';
 
 export const FloatingWhatsApp: React.FC = () => {
   return (
