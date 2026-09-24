@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { CategoryType, MenuItem } from '../types';
-import { MENU_ITEMS } from '../data/menuData';
+import { CategoryType, MenuItem } from './types';
+import { MENU_ITEMS } from './menuData';
 import { Search, Sparkles, Plus, ShoppingBag } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useCart } from './CartContext';
 import { ItemCustomizeModal } from './ItemCustomizeModal';
 
 interface InteractiveMenuProps {
