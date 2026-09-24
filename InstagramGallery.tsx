@@ -1,6 +1,6 @@
 import React from 'react';
 import { Instagram, ExternalLink } from 'lucide-react';
-import { INSTAGRAM_HANDLE, INSTAGRAM_URL, INSTAGRAM_HIGHLIGHTS } from '../data/menuData';
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, INSTAGRAM_HIGHLIGHTS } from './menuData';
 
 export const InstagramGallery: React.FC = () => {
   return (
