@@ -1,5 +1,5 @@
 import React from 'react';
-import { TAGLINE, ADDRESS, PHONE_DISPLAY } from '../data/menuData';
+import { TAGLINE, ADDRESS, PHONE_DISPLAY } from './menuData';
 
 export const AboutSection: React.FC = () => {
   return (
