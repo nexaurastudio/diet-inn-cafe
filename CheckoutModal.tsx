@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { X, ArrowLeft, MessageCircle, MapPin, Bike, Store, AlertCircle, CheckCircle2, RotateCcw } from 'lucide-react';
-import { useCart } from '../context/CartContext';
-import { CustomerDetails, OrderType } from '../types';
-import { generateWhatsAppOrderUrl } from '../utils/whatsappOrder';
+import { useCart } from './CartContext';
+import { CustomerDetails, OrderType } from './types';
+import { generateWhatsAppOrderUrl } from './whatsappOrder';
 
 export const CheckoutModal: React.FC = () => {
   const {
