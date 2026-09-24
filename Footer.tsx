@@ -1,6 +1,6 @@
 import React from 'react';
 import { Phone, MapPin, MessageCircle, Instagram } from 'lucide-react';
-import { ADDRESS, PHONE_DISPLAY, PHONE_TEL, INSTAGRAM_HANDLE, INSTAGRAM_URL, TAGLINE, getWhatsAppUrl } from '../data/menuData';
+import { ADDRESS, PHONE_DISPLAY, PHONE_TEL, INSTAGRAM_HANDLE, INSTAGRAM_URL, TAGLINE, getWhatsAppUrl } from './menuData';
 
 export const Footer: React.FC = () => {
   return (
