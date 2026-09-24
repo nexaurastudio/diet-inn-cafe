@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu as MenuIcon, X, ShoppingBag } from 'lucide-react';
-import { INSTAGRAM_URL, INSTAGRAM_HANDLE } from '../data/menuData';
+import { INSTAGRAM_URL, INSTAGRAM_HANDLE } from './menuData';
 import { useCart } from './CartContext';
 
 export const Navbar: React.FC = () => {
