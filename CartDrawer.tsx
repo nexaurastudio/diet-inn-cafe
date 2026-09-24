@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, Plus, Minus, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useCart } from './CartContext';
 
 export const CartDrawer: React.FC = () => {
   const {
