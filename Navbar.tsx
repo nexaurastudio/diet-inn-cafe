@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu as MenuIcon, X, ShoppingBag } from 'lucide-react';
 import { INSTAGRAM_URL, INSTAGRAM_HANDLE } from '../data/menuData';
-import { useCart } from '../context/CartContext';
+import { useCart } from './CartContext';
 
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
