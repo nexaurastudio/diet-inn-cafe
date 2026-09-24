@@ -1,0 +1,6 @@
+{
+  "name": "Diet Inn Cafe",
+  "description": "Diet Inn Cafe - Eat Smart, Stay Fit. Premium restaurant and healthy fast food cafe located in Al Kabir Town Phase 2, Lahore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
