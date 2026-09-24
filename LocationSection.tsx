@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, MessageCircle, Navigation, Building } from 'lucide-react';
-import { ADDRESS, PHONE_DISPLAY, PHONE_TEL, getWhatsAppUrl } from '../data/menuData';
+import { ADDRESS, PHONE_DISPLAY, PHONE_TEL, getWhatsAppUrl } from './menuData';
 
 export const LocationSection: React.FC = () => {
   const mapSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`Diet Inn Cafe, ${ADDRESS}`)}`;
