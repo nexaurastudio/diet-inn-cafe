@@ -1,5 +1,5 @@
-import { CartItem, CustomerDetails } from '../types';
-import { WHATSAPP_NUMBER } from '../data/menuData';
+import { CartItem, CustomerDetails } from './types';
+import { WHATSAPP_NUMBER } from './menuData';
 
 export const generateWhatsAppOrderMessage = (
   cart: CartItem[],
