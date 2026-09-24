@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { X, ShoppingBag, Plus, Minus, Check } from 'lucide-react';
-import { MenuItem, MenuItemOption, ExtraOption } from '../types';
-import { useCart } from '../context/CartContext';
+import { MenuItem, MenuItemOption, ExtraOption } from './types';
+import { useCart } from './CartContext';
 
 interface ItemCustomizeModalProps {
   item: MenuItem | null;
