@@ -1,6 +1,6 @@
 import React from 'react';
 import { MessageCircle, Phone, MapPin } from 'lucide-react';
-import { PHONE_DISPLAY, PHONE_TEL, ADDRESS, getWhatsAppUrl } from '../data/menuData';
+import { PHONE_DISPLAY, PHONE_TEL, ADDRESS, getWhatsAppUrl } from './menuData';
 
 export const OrderCTA: React.FC = () => {
   return (
