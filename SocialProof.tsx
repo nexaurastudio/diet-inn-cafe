@@ -1,6 +1,6 @@
 import React from 'react';
 import { Star, Instagram, ThumbsUp, MessageSquare } from 'lucide-react';
-import { INSTAGRAM_HANDLE, INSTAGRAM_URL } from '../data/menuData';
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL } from './menuData';
 
 export const SocialProof: React.FC = () => {
   return (
