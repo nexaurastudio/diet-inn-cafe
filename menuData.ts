@@ -1,4 +1,4 @@
-import { MenuItem, DealItem, ExtraOption } from '../types';
+import { MenuItem, DealItem, ExtraOption } from './types';
 
 export const WHATSAPP_NUMBER = "923058745545";
 export const PHONE_DISPLAY = "+92 3058745545";
